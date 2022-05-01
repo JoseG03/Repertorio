@@ -1,0 +1,9 @@
+﻿  Main.cpp
+C:\Users\melga\Desktop\Trabajo_Parcial\Main\Mapa.h(34,31): warning C4309: 'inicializando': truncamiento de valor constante
+C:\Users\melga\Desktop\Trabajo_Parcial\Main\Mapa.h(35,32): warning C4309: 'inicializando': truncamiento de valor constante
+C:\Users\melga\Desktop\Trabajo_Parcial\Main\Mapa.h(36,27): warning C4309: 'inicializando': truncamiento de valor constante
+C:\Users\melga\Desktop\Trabajo_Parcial\Main\Mapa.h(37,27): warning C4309: 'inicializando': truncamiento de valor constante
+C:\Users\melga\Desktop\Trabajo_Parcial\Main\Main.cpp(8,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\melga\Desktop\Trabajo_Parcial\Main\Main.cpp(50,9): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+  AssemblyInfo.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  Main.vcxproj -> C:\Users\melga\Desktop\Trabajo_Parcial\x64\Debug\Main.exe

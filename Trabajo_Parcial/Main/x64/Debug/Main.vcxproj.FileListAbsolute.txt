@@ -1,0 +1,2 @@
+C:\Users\melga\Desktop\Trabajo_Parcial\Main\x64\Debug\Main.vcxproj.AssemblyReference.cache
+C:\Users\melga\Desktop\Trabajo_Parcial\Main\x64\Debug\Main.vcxproj.SuggestedBindingRedirects.cache
