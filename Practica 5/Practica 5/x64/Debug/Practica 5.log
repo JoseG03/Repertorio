@@ -1,0 +1,4 @@
+﻿  Principal.cpp
+C:\Users\melga\Desktop\Practica 5\Practica 5\Principal.cpp(210,9): warning C4101: 'level': variable local sin referencia
+  Principal.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  Practica 5.vcxproj -> C:\Users\melga\Desktop\Practica 5\x64\Debug\Practica 5.exe

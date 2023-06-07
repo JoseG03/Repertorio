@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\melga\Desktop\Practica 6\Practica 6\Source.cpp(89,30): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\melga\Desktop\Practica 6\Practica 6\Source.cpp(180,59): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+  Source.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  Practica 6.vcxproj -> C:\Users\melga\Desktop\Practica 6\x64\Debug\Practica 6.exe
