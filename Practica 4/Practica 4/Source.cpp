@@ -5,7 +5,7 @@
 #include <cstdlib>
 using namespace std;
 
-// Clase PÛliza
+// Clase P√≥liza
 class Poliza {
 public:
     int numero;
@@ -15,7 +15,7 @@ public:
     Poliza(int& num, double imp, const std::string& ben) : numero(num), importe(imp), beneficiario(ben) {}
 };
 
-// Nodo del ¡rbol
+// Nodo del √Årbol
 class NodoArbol {
 public:
     Poliza* poliza;
@@ -28,7 +28,7 @@ public:
     }
 };
 
-// ¡rbol con 4 hijos
+// √Årbol con 4 hijos
 class ArbolCuatroHijos {
 private:
     NodoArbol* raiz;
@@ -91,22 +91,23 @@ public:
     }
 };
 
-// FunciÛn de balanceo
+// Funci√≥n de balanceo
 void balancearArbol(ArbolCuatroHijos& arbol) {
-    // Implementar la funciÛn de balanceo aquÌ
+    // Implementar la funci√≥n de balanceo aqu√≠
     // ...
 }
 
-// FunciÛn de impresiÛn
+// Funci√≥n de impresi√≥n
 void imprimirPoliza(Poliza* poliza) {
     std::cout << "Numero de poliza: " << poliza->numero << ", Importe: " << poliza->importe << ", Beneficiario: " << poliza->beneficiario << std::endl;
 }
 
 int main() {
-    // Crear el ·rbol
+    srand((unsigned)time(NULL));
+    // Crear el √°rbol
     ArbolCuatroHijos arbol;
 
-    // Crear objetos PÛliza con valores aleatorios
+    // Crear objetos P√≥liza con valores aleatorios
     std::random_device rd;
     std::mt19937 gen(rd());
     std::uniform_real_distribution<double> impDist(1000.0, 10000.0);
@@ -118,7 +119,9 @@ int main() {
         for (int j = 0; j < 8; j++) {
             numeroPoliza = rand() % 1000;
         }
-
+        //if (i == 0) {
+        //    numeroPoliza = 100;
+        //}
         double importePoliza = impDist(gen);
 
         std::string beneficiarioPoliza;
@@ -131,14 +134,17 @@ int main() {
         arbol.insertar(poliza);
     }
 
-    // Imprimir el ·rbol en orden
+    // Imprimir el √°rbol en orden
     std::cout << "Arbol en orden:" << std::endl;
     arbol.imprimirEnOrden();
 
-    // Buscar pÛlizas por n˙mero
-    std::cout << std::endl << "Busqueda de polizas por numero:" << std::endl;
-    arbol.buscarPorNumero(1, imprimirPoliza);
-    arbol.buscarPorNumero(500, imprimirPoliza);
+    // Buscar p√≥lizas por n√∫mero
+    cout << std::endl << "Busqueda de polizas por numero:" << std::endl;
+    int buscador1 = 100, buscador2 = rand() % 1000;
+    cout << "Parametro que se busca: " << buscador1 << endl;
+    arbol.buscarPorNumero(100, imprimirPoliza);
+    cout << "Parametro que se busca: " << buscador2 << endl;
+    arbol.buscarPorNumero(buscador2, imprimirPoliza);
 
     system("pause");
     return 0;
