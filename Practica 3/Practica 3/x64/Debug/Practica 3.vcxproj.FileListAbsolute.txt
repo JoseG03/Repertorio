@@ -1,0 +1,2 @@
+C:\Users\melga\Desktop\Practica 3\Practica 3\x64\Debug\Practica 3.vcxproj.AssemblyReference.cache
+C:\Users\melga\Desktop\Practica 3\Practica 3\x64\Debug\Practica 3.vcxproj.SuggestedBindingRedirects.cache

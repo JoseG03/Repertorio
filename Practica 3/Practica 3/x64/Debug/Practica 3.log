@@ -1,0 +1,18 @@
+﻿  main.cpp
+C:\Users\melga\Desktop\Practica 3\Practica 3\HashTable.hpp(20,1): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\melga\Desktop\Practica 3\Practica 3\HashTable.hpp(16): message : al compilar la función del miembro clase plantilla "void HashTable<Registro>::insert(std::string,T)"
+          with
+          [
+              T=Registro
+          ]
+C:\Users\melga\Desktop\Practica 3\Practica 3\main.cpp(105): message : Vea la referencia a la creación de una instancia de la función plantilla "void HashTable<Registro>::insert(std::string,T)" que se está compilando
+          with
+          [
+              T=Registro
+          ]
+C:\Users\melga\Desktop\Practica 3\Practica 3\main.cpp(71): message : Vea la referencia a la creación de una instancia de clase plantilla "HashTable<Registro>" que se está compilando
+C:\Users\melga\Desktop\Practica 3\Practica 3\HashTable.hpp(64,23): warning C4244: '+=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\melga\Desktop\Practica 3\Practica 3\HashTable.hpp(61): message : al compilar la función del miembro clase plantilla "int HashTable<Registro>::_hashFunction(std::string)"
+C:\Users\melga\Desktop\Practica 3\Practica 3\HashTable.hpp(18): message : Vea la referencia a la creación de una instancia de la función plantilla "int HashTable<Registro>::_hashFunction(std::string)" que se está compilando
+  main.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  Practica 3.vcxproj -> C:\Users\melga\Desktop\Practica 3\x64\Debug\Practica 3.exe
